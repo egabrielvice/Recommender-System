@@ -1,0 +1,77 @@
+---
+title: 'Scenario Design Analysis: Netflix Recommender System'
+author: "Escarlet Gabriel Vicente"
+date: "2025-11-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+When people open Netflix, they rarely know exactly what they want to watch. Within seconds, though, the platform seems to read their minds. Behind that experience lies one of the most advanced recommender systems in the world, a system that blends data, psychology, and design to keep users both entertained and understood.
+
+Netflix’s recommendation engine defines the platform’s identity. It transforms a massive library into a tailored experience, shaping what users see, what they discover, and even what becomes culturally popular. 
+
+---
+
+## Scenario Design
+
+### A. For Netflix Viewers
+**1. Who are the users?**  
+Everyone who interacts with Netflix is a user, from a college student watching a show between classes to a family choosing a movie together on a Friday night. They use different devices and come from different cultures, but they share one thing: limited time and endless options.  
+
+**2. What are their goals?**  
+To find something they genuinely enjoy without overthinking it. They want a smooth, intuitive experience that feels personal, helping them discover stories that fit their taste or sometimes surprise them with something new.
+
+**3. How can Netflix help them reach those goals?**  
+By observing patterns such as what users finish, skip, or return to, and learning how those choices connect across millions of viewers. Netflix converts those invisible patterns into a homepage that feels effortless. The thumbnails, genres, and rows that appear are all quiet predictions made to make the user’s decision as simple and rewarding as possible.  
+
+---
+
+### B. For Netflix as a Company
+**1. Who are the users internally?**  
+Netflix’s internal “users” are its analysts, engineers, and decision-makers who depend on behavioral data to improve the service, forecast trends, and guide investments in original content.  
+
+**2. What are their goals?**  
+To maintain engagement, reduce churn, and ensure subscribers continue finding value in the service. Every time a user spends another hour watching, Netflix gains insights into what stories resonate and which investments are worth pursuing.  
+
+**3. How does the recommender system support these goals?**  
+It links viewer satisfaction to business performance. By predicting what keeps audiences watching, Netflix not only improves user experience but also informs content strategy, advertising, and even thumbnail design. The algorithm becomes a central decision-making partner across the organization.  
+
+---
+
+## Reverse Engineering Netflix’s Recommender System
+Netflix doesn’t rely on a single algorithm. It uses an evolving hybrid model. 
+
+- **Collaborative filtering** finds similarities between viewers’ watching habits to make “people like you” suggestions.  
+- **Content-based methods** examine what makes a show similar to another, such as genre, actors, or tone.  
+- **Contextual and deep learning models** continuously adjust recommendations depending on the user’s environment, such as whether they are watching on a phone during a commute or at home on a weekend night.  
+
+Each session is a live experiment, as Netflix constantly tests and ranks which combinations of shows, thumbnails, and layouts create the highest engagement.  
+
+---
+
+## Recommendations for Improvement
+1. **More transparency:** Offer brief explanations like “Recommended because you enjoyed…” to make personalization feel more human and less opaque.  
+2. **Emotion-driven categories:** Introduce playlists based on moods or energy levels, such as “comfort series,” “slow afternoons,” or “dark and cinematic,” to connect beyond data points.
+3. **Controlled randomness:** Periodically suggest one unexpected title to prevent algorithmic echo chambers and encourage exploration.  
+4. **Collaborative profiles:** Let users blend preferences temporarily, for example, “Date night mode” or “Family picks.”  
+5. **Ethical personalization:** Continue balancing engagement with user well-being by avoiding overly addictive content loops.  
+
+---
+
+## Conclusion
+Netflix’s recommendation system is more than a technological achievement. It is a design statement about how digital experiences can feel both personal and invisible.
+
+Through careful scenario design, we can see two overlapping stories: one where users simply want comfort and entertainment, and another where Netflix seeks to sustain a business built on anticipation and satisfaction.
+
+The system succeeds when those two stories align, when data quietly supports human curiosity, one title at a time.
+
+## References
+Netflix Help Center. (n.d.). *How Netflix’s Recommendations System Works.* Retrieved from https://help.netflix.com/en/node/100639  
+
+Netflix Tech Blog. (2023). *Recommending for Long-Term Member Satisfaction at Netflix.* Retrieved from https://netflixtechblog.com/recommending-for-long-term-member-satisfaction-at-netflix-ac15cada49ef  
+
+Netflix Research. (n.d.). *Personalization, Recommendations, and Search Research Area.* Retrieved from https://research.netflix.com/research-area/recommendations  
